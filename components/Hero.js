@@ -26,27 +26,27 @@ const Hero = ({ data }) => {
   };
   return (
     <Fragment>
-      <div className="flex w-full gap-4 justify-evenly my-6">
+      <div className="flex w-full gap-4 justify-evenly my-6 overflow-hidden">
         <Button
           className="bg-slate-400 rounded-md p-4 px-8 text-4xl m-4 text-white hover:bg-slate-500 transition-all"
           variant="filled"
         >
-          AI News
+          AI <span className="italic">News</span>
         </Button>
         <Button
           className="bg-slate-400 rounded-md p-4 px-8 text-4xl m-4 text-white hover:bg-slate-500 transition-all"
           variant="filled"
         >
-          Tesla News
+          Tesla <span className="italic">News</span>
         </Button>
         <Button
           className="bg-slate-400 rounded-md p-4 px-8 text-4xl m-4 text-white hover:bg-slate-500 transition-all"
           variant="filled"
         >
-          Crypto News
+          Crypto <span className="italic">News</span>
         </Button>
       </div>
-      <div className="ml-2 border-b-2 border-gray-400 px-10 w-full grid grid-cols-10 gap-1 justify-items-start text-start">
+      <div className="ml-2 border-b-2 border-gray-400 px-10 items-center w-full grid grid-cols-10 gap-1 justify-items-start text-start">
         <p className="text-lg font-bold">#</p>
         <p className="col-span-4 ml-[-50px] text-lg font-bold">Title</p>
         <div className="grow"></div>
@@ -58,7 +58,7 @@ const Hero = ({ data }) => {
           key={index}
           open={open === index + 1}
           animate={customAnimation}
-          className="px-10"
+          className="px-10 border-b"
         >
           <AccordionHeader
             className="grid grid-cols-10 gap-2 pl-2 justify-items-start text-start text-lg hover:bg-slate-200"
@@ -67,7 +67,7 @@ const Hero = ({ data }) => {
             <h3>{index + 1}</h3>
             <h2 className="col-span-4 ml-[-50px]">{item.title}</h2>
             <div className="grow"></div>
-            <h2>{item.author}</h2>
+            <h2 className="text-sm">{item.author}</h2>
 
             <h2 className="col-span-2">
               {moment(item.publishedAt).format("DD/MM/YY, h:mm:ss a")}
@@ -77,7 +77,7 @@ const Hero = ({ data }) => {
             </p>
           </AccordionHeader>
           <AccordionBody>
-            <Link className="ml-10" href={item.url}>
+            <Link className="ml-10" href={item.url} target="_blank">
               Read more at:{" "}
               <h1 className="text-lg  underline ml-10 hover:text-slate-500">
                 {item.url}
