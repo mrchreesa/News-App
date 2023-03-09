@@ -10,13 +10,13 @@ import {
 import Link from "next/link";
 import moment from "moment";
 
-const Hero = () => {
+const Hero = ({ data }) => {
   const [open, setOpen] = useState(0);
   const [selectedNews, setSelectedNews] = useState(null);
 
-  // const aiNews = data[0].articles;
-  // const teslaNews = data[1].articles;
-  // const cryptoNews = data[2].articles;
+  const aiNews = data[0].articles;
+  const teslaNews = data[1].articles;
+  const cryptoNews = data[2].articles;
 
   const handleOpen = (value) => {
     setOpen(open === value ? 0 : value);

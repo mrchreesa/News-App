@@ -29,11 +29,11 @@ async function getData() {
 }
 
 const Home = async () => {
-  // const data = await getData();
+  const data = await getData();
   return (
     <div className="w-full">
-      {/* <Hero data={data} /> */}
-      <Hero />
+      <Hero data={data} />
+      {/* <Hero /> */}
     </div>
   );
 };
