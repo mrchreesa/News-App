@@ -29,7 +29,8 @@ async function getData() {
 }
 
 const Home = async () => {
-  const data = await getData();
+  // const data = await getData();
+  const data = null;
   return (
     <div className="w-full">
       <Hero data={data} />
