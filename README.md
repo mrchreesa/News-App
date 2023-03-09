@@ -18,7 +18,7 @@ The app fetches data from the News API via the server component and passes it do
 The Next.js 13 architecture ensures that the app loads quickly and efficiently, making it an ideal choice for users who need the latest news on-the-go. Overall, this news app is a powerful tool for anyone who wants to stay informed on the latest news and trends in AI, Tesla, and Crypto, in a beautifully designed, user-friendly interface.
 <br/>
 
-<img align="center" src="/news-app-preview.png" alt="preview page" />
+<img align="center" src="/public/news-app-preview.png" alt="preview page" />
 
 </br>
 <p align="center">
