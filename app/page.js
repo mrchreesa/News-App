@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 
 const apiKey = process.env.NEXT_PUBLIC_NEWS_API_KEY;
 
+// Data fetching from News API
 async function getData() {
   const [aiNewsRes, teslaNewsRes, cryptoNewsRes] = await Promise.all([
     await fetch(
@@ -33,7 +34,6 @@ const Home = async () => {
   return (
     <div className="w-full">
       <Hero data={data} />
-      {/* <Hero /> */}
     </div>
   );
 };
