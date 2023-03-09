@@ -18,9 +18,8 @@ The app fetches data from the News API via the server component and passes it do
 The Next.js 13 architecture ensures that the app loads quickly and efficiently, making it an ideal choice for users who need the latest news on-the-go. Overall, this news app is a powerful tool for anyone who wants to stay informed on the latest news and trends in AI, Tesla, and Crypto, in a beautifully designed, user-friendly interface.
 <br/>
 
-<img align="center" src="./news-app-preview.png" alt="preview page" />
+<img align="center" src="/news-app-preview.png" alt="preview page" />
 
-<h1 align="center"> 🏠 (https://e-commerce-store-omega.vercel.app/) </h1>
 </br>
 <p align="center">
  🔶🔶🔶 Technologies 🔶🔶🔶
@@ -39,9 +38,16 @@ The Next.js 13 architecture ensures that the app loads quickly and efficiently, 
 ## Usage
 
 ```
+git clone https://github.com/mrchreesa/News-App.git
+
 npm install
 
+(Development)
 npm run dev
+
+(Production)
+npm run build
+npm run start
 ```
 
 ## Author
