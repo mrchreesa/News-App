@@ -38,8 +38,10 @@ The Next.js 13 architecture ensures that the app loads quickly and efficiently, 
 ## Usage
 
 ```
+(Clone the repo locally)
 git clone https://github.com/mrchreesa/News-App.git
 
+(Install dependancies)
 npm install
 
 (Development)
