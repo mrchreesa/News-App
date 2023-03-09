@@ -56,6 +56,7 @@ npm run start
 
 👤 **Kristian Rahnev**
 
+- Portfolio: [krisrahnev.com](https://www.krisrahnev.com/)
 - Twitter: [@mrchreesa](https://twitter.com/mrchreesa)
 - Github: [@mrchreesa](https://github.com/mrchreesa)
 - LinkedIn: [@kristian-rahnev-90b35913a/](https://linkedin.com/in/kristian-rahnev-90b35913a/)
