@@ -33,7 +33,6 @@ The Next.js 13 architecture ensures that the app loads quickly and efficiently, 
 - Axios
 </p>
 </br>
-<h1 align="center"> 🏠 (https://www.krisrahnev.com/) </h1>
 </br>
 ## Usage
 
