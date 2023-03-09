@@ -7,13 +7,13 @@ const query = "Tesla";
 async function getData() {
   const [aiNewsRes, teslaNewsRes, cryptoNewsRes] = await Promise.all([
     await fetch(
-      `https://newsapi.org/v2/everything?q=AI&from=2023-02-08&to=2023-03-08&pageSize=11&apiKey=${apiKey}`
+      `https://newsapi.org/v2/everything?q=AI&from=2023-02-08&to=2023-03-08&pageSize=10&apiKey=${apiKey}`
     ),
     await fetch(
-      `https://newsapi.org/v2/everything?q=Tesla&from=2023-02-08&to=2023-03-08&pageSize=11&apiKey=${apiKey}`
+      `https://newsapi.org/v2/everything?q=Tesla&from=2023-02-08&to=2023-03-08&pageSize=10&apiKey=${apiKey}`
     ),
     await fetch(
-      `https://newsapi.org/v2/everything?q=Crypto&from=2023-02-08&to=2023-03-08&pageSize=11&apiKey=${apiKey}`
+      `https://newsapi.org/v2/everything?q=Crypto&from=2023-02-08&to=2023-03-08&pageSize=10&apiKey=${apiKey}`
     ),
   ]);
   const [aiNews, teslaNews, cryptoNews] = await Promise.all([

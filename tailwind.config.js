@@ -13,6 +13,9 @@ module.exports = {
       lg: "976px",
       xl: "1440px",
     },
+    fontFamily: {
+      inter: "Inter",
+    },
     extend: {},
   },
   plugins: [],
