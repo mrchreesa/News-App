@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Welcome to News App 🗞</h1>
+<p>
+  <a href="https://github.com/mrchreesa/News-App" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://twitter.com/mrchreesa" target="_blank">
+    <img alt="Twitter: mrchreesa" src="https://img.shields.io/twitter/follow/mrchreesa.svg?style=social" />
+  </a>
+    <br/>
+  <a href="https://linkedin.com/in/kristian-rahnev-90b35913a/" target="_blank">
+  <img alt="Twitter: mrchreesa" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+   Introducing a single page News App built with the latest technology including Next.js 13 and the new app directory. The user interface is styled with TailwindCSS and Material-Tailwind, to provide a clean and intuitive experience for users.
 
-## Getting Started
+The app fetches data from the News API via the server component and passes it down as props, providing users with the latest news in three popular categories: AI, Tesla, and Crypto. Each category displays 10 articles in a convenient table format, allowing users to easily browse through the headlines to find the news they need.
 
-First, run the development server:
+The Next.js 13 architecture ensures that the app loads quickly and efficiently, making it an ideal choice for users who need the latest news on-the-go. Overall, this news app is a powerful tool for anyone who wants to stay informed on the latest news and trends in AI, Tesla, and Crypto, in a beautifully designed, user-friendly interface.
+<br/>
 
-```bash
+<img align="center" src="./news-app-preview.png" alt="preview page" />
+
+<h1 align="center"> 🏠 (https://e-commerce-store-omega.vercel.app/) </h1>
+</br>
+<p align="center">
+ 🔶🔶🔶 Technologies 🔶🔶🔶
+ </p>
+<p align="center">
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Next.js
+- TailwindCSS
+- Axios
+</p>
+</br>
+<h1 align="center"> 🏠 (https://www.krisrahnev.com/) </h1>
+</br>
+## Usage
+
+```
+npm install
+
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Author
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+👤 **Kristian Rahnev**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Twitter: [@mrchreesa](https://twitter.com/mrchreesa)
+- Github: [@mrchreesa](https://github.com/mrchreesa)
+- LinkedIn: [@kristian-rahnev-90b35913a/](https://linkedin.com/in/kristian-rahnev-90b35913a/)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Show your support
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Give a ⭐️ for this project!

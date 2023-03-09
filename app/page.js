@@ -2,7 +2,6 @@ import React from "react";
 import Hero from "../components/Hero";
 
 const apiKey = process.env.NEXT_PUBLIC_NEWS_API_KEY;
-const query = "Tesla";
 
 async function getData() {
   const [aiNewsRes, teslaNewsRes, cryptoNewsRes] = await Promise.all([
