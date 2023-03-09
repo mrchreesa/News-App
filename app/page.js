@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "../components/Hero";
 
-const apiKey = process.env.NEXT_PUBLIC_NEWS_API_KEY;
+const apiKey = process.env.NEWS_API_KEY;
 
 // Data fetching from News API
 async function getData() {
